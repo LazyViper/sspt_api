@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>com.yumi.sspt.service</artifactId>
+	<name>com.yumi.sspt.service</name>
+	<url>http://maven.apache.org</url>
+	<description>业务层</description>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>yumi</groupId>
+		<artifactId>com.yumi.sspt</artifactId>
+		<version>0.0.1</version>
+	</parent>
+
+	<!-- 依赖包，根据实际需求添加 -->
+	<dependencies>
+		<dependency>
+			<groupId>yumi</groupId>
+			<artifactId>com.yumi.sspt.model</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>yumi</groupId>
+			<artifactId>com.yumi.sspt.plugin</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.github.lukehutch</groupId>
+			<artifactId>fast-classpath-scanner</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+
+
+	</dependencies>
+	
+</project>

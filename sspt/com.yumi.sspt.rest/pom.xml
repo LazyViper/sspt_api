@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>com.yumi.sspt.rest</artifactId>
+	<name>com.yumi.sspt.rest</name>
+	<url>http://maven.apache.org</url>
+	<description>Rest</description>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>yumi</groupId>
+		<artifactId>com.yumi.sspt</artifactId>
+		<version>0.0.1</version>
+	</parent>
+
+	<!-- 依赖包，根据实际需求添加 -->
+	<dependencies>
+
+		<dependency>
+			<groupId>yumi</groupId>
+			<artifactId>com.yumi.sspt.service</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+    </dependencies>
+	
+</project>
